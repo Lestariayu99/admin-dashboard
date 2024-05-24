@@ -7,9 +7,9 @@ import Pagination from "@/app/ui/dashboard/pagination/pagination";
 // import { deleteProduct } from "@/app/lib/actions";
 
 const ProductsPage = async ({ searchParams }) => {
-  const q = searchParams?.q || "";
-  const page = searchParams?.page || 1;
-  const { count, products } = await fetchProducts(q, page);
+  // const q = searchParams?.q || "";
+  // const page = searchParams?.page || 1;
+  // const { count, products } = await fetchProducts(q, page);
 
   return (
     <div className={styles.container}>
