@@ -2,7 +2,6 @@
     position: sticky;
     top: 40px;
 }
-
 .user {
     display: flex;
     align-items: center;
@@ -55,5 +54,7 @@
 }
 
 .logout:hover {
-    background-color: #2e374a;
+    
+    /* background-color: rgb(33, 143, 33); */
+    background-color: teal;
 }

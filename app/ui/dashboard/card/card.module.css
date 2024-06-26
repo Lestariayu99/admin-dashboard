@@ -9,7 +9,9 @@
 }
 
 .container:hover {
-    background-color: #2a374a;
+    
+    /* background-color: rgb(33, 143, 33); */
+    background-color: teal;
 }
 
 .texts {

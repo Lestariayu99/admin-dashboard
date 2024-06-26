@@ -28,13 +28,13 @@
   padding: 10px;
 }
 
-.product{
+.user{
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.productImage{
+.userImage{
   border-radius: 50%;
   object-fit: cover;
 }
@@ -52,10 +52,15 @@
   cursor: pointer;
 }
 
-.view{
+.view {
+  /* Gaya khusus untuk tombol View */
   background-color: teal;
+  color: white;
+  margin-right: 10px; /* Tambahkan margin kanan untuk memberi jarak */
 }
 
-.delete{
+.delete {
+  /* Gaya khusus untuk tombol Delete */
   background-color: crimson;
+  color: white;
 }
